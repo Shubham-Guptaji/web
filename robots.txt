@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /img/index.html
+Disallow: /img/popular-posts/index.html
+Sitemap: https://www.techalcodemy.ga/sitemap.xml

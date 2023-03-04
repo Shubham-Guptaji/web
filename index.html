@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Shubham Gupta">
+  <meta name="keyword" content="Tech Alcodemy, techalcodemy">
+  <meta name="description"
+    content="Tech Alcodemy is a tech blog platform where you will get latest news on technology and also some programming knowledge">
+  <title>Tech Alcodemy</title>
+  <link rel="icon" type="x-icon" href="/img/Alcodemy.png">
+  <link rel="stylesheet" href="/utils.css">
+  <link rel="stylesheet" href="/style.css">
+  </script>
+</head>
+
+<body>
+
+  <!--Navbar section-->
+  <header class="nav-main" id="navMain">
+    <div class="navbar ls-flex ms-flexbox my-auto container">
+      <div class="flex">
+        <img src="/img/Tech-Alcodemy.webp" height="80px" width="142px" class="my-auto" id="main-page"
+          alt="Tech Alcodemy logo">
+        <div style="height: 60px;cursor: pointer;" class="button my-auto ms-auto" id="navButton" onclick="navbar()">
+          <svg height="60" width="60">
+            <g fill="none">
+              <path stroke="lightblue" d="M5 15 l45 0" />
+              <path stroke="lightblue" d="M5 30 l45 0" />
+              <path stroke="lightblue" d="M5 45 l45 0" />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="nav-link" id="navBar">
+        <ul class="ls-flex ms-block">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+          <li><a href="/about/">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!--Image Section-->
+  <div style="position: relative;" class="front1">
+    <div id="img-show" style="width: 100%;">
+      <script>
+        imgShow();
+        window.addEventListener('resize', imgShow);
+        function imgShow() {
+          var c = document.getElementById("img-show").clientWidth;
+          if (c < "515") {
+            document.getElementById("img-show").innerHTML = "";
+          } else {
+            document.getElementById("img-show").innerHTML = '<img src="/img/2.webp" alt="image" width="1920" height="1070" style="width:100%;height:auto" class="img1">'
+          }
+        }
+      </script>
+    </div>
+    <div class="imgFront container ">
+      <div class="wid-40">
+        <h1 class="front-section-content1 mb-3 fs">Tech Alcodemy</h1>
+        <p class="front-section-content2 mb-3">The biggest Success of your life begins only with a single step.
+          The
+          way to tech world.</p>
+        <a href="/blog/" class="button1 px-3 button11">Let's Start</a>
+        <div class="space"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--Quote Section-->
+  <div class="quote py-5">
+    <div class="wid-80 mx-auto ls-flex ">
+      <div class="ms-flexbox center m-pb-3 item-center">
+        <img src="/img/quote-1.png" alt="quote here" width="94" height="72">
+      </div>
+      <div class="mx-auto gray ms-flexbox">
+        <p class="txt-xl center">“Let’s go invent tomorrow instead of worrying about what happened yesterday.”</p><br>
+        <p class="txt-l center">- Steve Jobs</p>
+      </div>
+    </div>
+  </div>
+
+  <!--article card section-->
+  <div class="container py-5 card">
+    <div class="article-head center ">
+      <h2>Our Blog</h2>
+    </div>
+    <div class="ls-flex mt-5 article-body txt-l space-around mb-5">
+      <div class="ms-flexbox m-pb-3 l-wid-45 card-1">
+        <div class="ms-flexbox ">
+          <div class="container mb-3">
+            <img src="/img/article-1.webp" alt="news section" height="402px" width="644px"
+              style="width:100%;height: auto;">
+          </div>
+        </div>
+        <div class="center m-pb-3 container">
+          <h3 class="mb-2 center">The Tech News</h3>
+          <p class="center gray mb-2 pb-2">Here you will get all the latest technology news in an awesome way. The
+            technology is changing with many changes
+            per day, you should see...</p>
+          <a href="/technology/" class="button1 px-3">Let's Start &rarr;</a>
+        </div>
+      </div>
+      <div class="ms-flexbox m-pb-3 l-wid-45 card-1">
+        <div class="ms-flexbox ">
+          <div class="container mb-3">
+            <img src="/img/article-2.webp" alt="news section" height="402px" width="644px"
+              style="width:100%;height: auto;">
+          </div>
+        </div>
+        <div class="center m-pb-3 container">
+          <h3 class="mb-2 center">Programming Tips</h3>
+          <p class="center gray mb-2 pb-2">Here we will provide you the programming tips and knowledge so as to start
+            your journey of programming career
+            and have some resources.</p>
+          <a href="/programming/" class="button1 px-3">Let's Start &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Fixed background Section-->
+  <div class="tech-section">
+    <div class="container">
+      <div class="l-wid-50 ms-auto py-5 vl-120">
+        <h2 class="mt-5">Explore the technology</h2>
+        <div class="line my-3"></div>
+        <p class="txt-l mb-3">The world is evolving with every matter of seconds. Technology is achieving new skies of
+          success and advancement. So to remain
+          connected with the evergrowing technology and become a tech professional start your journey with Tech
+          Alcodemy.
+        </p>
+        <a href="/technology/" class="button1 px-3">Let's Start &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!--Popular posts section-->
+  <div class="container py-5 post-section">
+    <h2 class="center container my-3">Our Popular Posts</h2>
+    <div class="line my-3 mx-auto "></div>
+    <div class="space-around mt-5 container posts-container space-around">
+      <div class="wid-31 post1 mx-auto"><a
+          href="/technology/chatgpt-successfully-communicates-with-drones-solves-complex-robotics-tasks/"><img
+            src="/img/popular-posts/Power-of-ChatGPT.webp" height="1080" width="1920"
+            style="width: 100%;height: auto;"></a></div>
+      <div class="wid-31 post2 mx-auto"><a
+          href="/technology/sbi-partners-with-paynow-for-cross-border-payments-through-bhim-app/"><img
+            src="/img/popular-posts/card transactions online sbi bhim upi.webp" height="1080px" width="1920px"
+            style="width: 100%;height: auto;"
+            alt="sbi partners with paynow for cross border payments through bhim app"></a></div>
+      <div class="wid-31 post3 mx-auto"><a href="/blog/"><img src="/img/Front-end-vs-Back-end.webp" height="1080"
+            width="1920" style="width: 100%;height: auto;"></a></div>
+      <div class="wid-31 post4 mx-auto"><a href="/blog/"><img src="/img/Front-end-vs-Back-end.webp" height="1080"
+            width="1920" style="width: 100%;height: auto;"></a></div>
+      <div class="wid-31 post5 mx-auto"><a href="/blog/"><img src="/img/Front-end-vs-Back-end.webp" height="1080"
+            width="1920" style="width: 100%;height: auto;"></a></div>
+      <div class="wid-31 post6 mx-auto"><a href="/blog/"><img src="/img/Front-end-vs-Back-end.webp" height="1080"
+            width="1920" style="width: 100%;height: auto;"></a></div>
+    </div>
+  </div>
+
+  <!--Footer Section-->
+  <footer class="footer">
+    <div class="container foot-space">
+      <p class="center mb-2">Hardoi, Uttar Pradesh, India | Email: <a
+          href="mailto:support@techalcodemy.ga">support@techalcodemy.ga</a> | Our <a href="/privacy-policy/">Privacy
+          Policy</a></p>
+      <p class="center">Copyright &copy; 2023 Tech Alcodemy</p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+
+.lightgray{
+    background-color: rgb(236, 236, 236);
+}
+.section-heading{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1;
+    column-gap: 50px;
+}
+.info-grid{
+    font-size: 35px;
+}
+.nav-post a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.rad-5{
+    border-radius: 5px;
+}
+#postlist a, #postcomment a, .categories a{
+    display: block;
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(57, 57, 160);
+}
+#postlist a:hover, #postcomment a:hover, .categories a:hover{
+    color: rgb(22, 22, 212);
+}
+.grid1 h1{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.post a{
+    text-decoration: none;
+}
+.grid .txt-xl{
+    font-size: 21px;
+}
+.comment-section .txt-xl{
+    font-size: 18px;
+    
+}
+.comment-section h2{
+    margin-bottom: 10px;
+}
+.img-post{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+}
+.post h2{
+    color: blue;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.post p{
+    font-size: 20px;
+}
+.post a:last-child{
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.grid1 h2{
+    font-size: 34px;
+}
+.grid1 h3{
+    font-size: 28px;
+}
+.grid1 img{
+    aspect-ratio: 1920/1080;
+}
+.grid1{
+    border-radius: 5px;
+} 
+.grid2{
+    border-radius: 5px;
+}
+.grid1 p{
+    color: rgb(56, 56, 56);
+}
+.comment-section textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 7px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+}
+.comment-section .grid input{
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.comment-section input[type=submit]{
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 10px;
+    background-color: blue;
+    cursor: pointer;
+    border: 3px solid rgb(155, 155, 155);
+    border-radius: 50px;
+    
+}
+.comment-section input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.comment-section input[type=submit]:hover{
+    border-color: skyblue;
+}
+.comment-section label{
+    font-size: 18px;
+}
+.comment
+.grid1 strong{
+    color: black;
+}
+.grid1 ul{
+    list-style-position: inside;
+    color: rgb(56, 56, 56);
+}
+
+.comment-section .grid{
+   
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+@media only screen and (max-width:515px) {
+    .container {
+        width: 97%;
+    }
+}
+@media screen and (max-width:1043px){
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2;
+        row-gap: 50px;
+    }
+    .comment-section .grid{
+        margin-top: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2;
+        row-gap: 30px;
+    }
+}
+@media screen and (max-width:900px){
+    .img-post{
+        width: 100%;
+    }
+    .comment-section textarea, .comment-section input:nth-child(-n+2){
+        width: 95%;
+      }
+      .grid1 img{
+        aspect-ratio: 1920/1200;
+    }
+}

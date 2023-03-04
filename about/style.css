@@ -1,0 +1,21 @@
+.image-section div {
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 70px;
+    color: white;
+    font-family: lucida calligraphy;
+    font-weight: bold;
+    width: max-content;
+}
+.content-section h1,.content-section div{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.content-section p{
+    font-size: 20px;
+}
+@media only screen and (max-width:719px){
+    .image-section div{
+        font-size: xx-large;
+    }
+}

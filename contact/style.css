@@ -1,0 +1,97 @@
+.image-section div {
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 80px;
+    color: white;
+    font-family: lucida calligraphy;
+    font-weight: bold;
+    width: max-content;
+    text-shadow: 1px 1px blue;
+}
+.image-section img{
+    filter: brightness(90%);
+}
+.content-section span{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.form-area{
+    margin-top:40px;
+    border: 2px;
+    border-top: 8px;
+    border-bottom: 8px;
+    border-style: solid;
+    border-color: blue;
+    font-size: 20px;
+    border-radius: 0 15px 0 15px ;
+    max-width: fit-content;
+    box-shadow: 10px 10px lightgray;
+}
+.form-area form{
+    text-align: left;
+}
+form tr td:nth-child(1){
+    text-align: center;
+}
+.form-area input{
+    height: 40px;
+    border-radius: 4px;
+    border-color: gray;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.form-area input[type=submit]{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    height: auto;
+    border-radius: 30px;
+    border-color: blue;
+    cursor: pointer;
+    max-width: 300px;
+}
+.form-area input[type=submit]:hover{
+    color: white;
+    background-color: blue;
+    
+}
+.form-area textarea{
+    border-radius: 4px;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+}
+.form-area input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+    column-gap: 50px;
+}
+.grid2{
+    text-align: left;
+    padding: 20px;
+}
+.grid2 h2{
+    margin-top: 30px;
+}
+@media only screen and (max-width:719px){
+    .image-section div{
+        font-size: xx-large;
+    }
+}
+@media only screen and (max-width:950px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2;
+        
+    }
+}

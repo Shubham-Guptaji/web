@@ -1,0 +1,95 @@
+.section-heading{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1;
+    column-gap: 50px;
+}
+.info-grid{
+    font-size: 35px;
+}
+.rad-5{
+    border-radius: 5px;
+}
+#postlist a, #postcomment a, .categories a{
+    display: block;
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(57, 57, 160);
+}
+#postlist a:hover, #postcomment a:hover, .categories a:hover{
+    color: rgb(22, 22, 212);
+}
+.grid1 h1{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.post a{
+    text-decoration: none;
+}
+.img-post{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+}
+.post h2{
+    color: blue;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.post p{
+    font-size: 20px;
+}
+.post a:last-child{
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.grid1 h2{
+    font-size: 34px;
+}
+.grid1 h3{
+    font-size: 28px;
+}
+.grid1 img{
+    aspect-ratio: 1920/1080;
+}
+.grid1{
+    border-radius: 5px;
+}
+.grid2{
+    border-radius: 5px;
+}
+.grid1 p{
+    color: rgb(56, 56, 56);
+}
+.grid1 strong{
+    color: black;
+}
+.grid1 ul{
+    list-style-position: inside;
+    color: rgb(56, 56, 56);
+}
+@media only screen and (max-width:515px) {
+    .container {
+        width: 97%;
+    }
+}
+@media screen and (max-width:1043px){
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2;
+        row-gap: 50px;
+    }
+}
+@media screen and (max-width:900px){
+    .img-post{
+        width: 100%;
+    }
+}
+
+
