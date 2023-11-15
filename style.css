@@ -118,7 +118,7 @@
 }
 
 .tech-section {
-    background-image: url(/img/fix-tech-bg.webp);
+    background-image: url(./img/fix-tech-bg.webp);
     background-position: center left;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -369,7 +369,7 @@
 
     .front1 {
         background-image: linear-gradient(to right, rgb(48, 149, 243), rgb(103, 72, 177));
-        /* background-image:url(/img/2.png); */
+        /* background-image:url(./img/2.png); */
         background-position: left;
         background-size: cover;
         text-align: center;
